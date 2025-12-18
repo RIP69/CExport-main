@@ -1315,7 +1315,7 @@ $jsonOutput = htmlspecialchars(json_encode($js_media), ENT_QUOTES, 'UTF-8');
                 links.forEach(link => {
                     if (link.id !== 'mobile-menu-btn' && !link.classList.contains('crimson-btn')) {
                         link.classList.remove('text-white');
-                        link.classList.add('text-brand-white');
+                        link.classList.add('text-brand-navy');
                     }
                     else if (link.id === 'mobile-menu-btn') {
                         link.classList.remove('text-white');
