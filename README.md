@@ -96,7 +96,6 @@ DB_CHARSET=utf8mb4
 4. Running the Project
 Place the project folder in your htdocs or www directory.
 
-Access the frontend: https://cexport.in/new/
 
 🖼️ Image Handling
 This project uses a unique approach where images are stored as Binary Large Objects (BLOBs) directly in the MySQL database.
