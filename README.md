@@ -105,9 +105,7 @@ This project uses a unique approach where images are stored as Binary Large Obje
 
 Retrieval: The view_image.php file acts as a router.
 
-Usage: <img src="view_image.php?type=gallery&id=1">
 
-Fallback: If an image is missing, a 1x1 transparent pixel is returned to prevent broken icons.
 
 🛡️ Security Note
 The db.php file prevents direct access via URL for security.
